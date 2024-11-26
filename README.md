@@ -1,0 +1,2 @@
+# learn-strapi
+learn-strapi
