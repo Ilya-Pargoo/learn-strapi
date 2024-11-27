@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dream_stories",
+  "info": {
+    "singularName": "dream-story",
+    "pluralName": "dream-stories",
+    "displayName": "Dream Story",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "date": {
+      "type": "datetime"
+    }
+  }
+}
